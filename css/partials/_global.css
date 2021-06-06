@@ -39,3 +39,8 @@
   z-index: -1;
   border: 4px;
 }
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 15px/25px var(--montserrat);
+}

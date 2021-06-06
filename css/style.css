@@ -62,6 +62,27 @@
 .site-main .site-banner .img-thumbnail {
   padding: 7rem;
   width: 90rem;
+  border: none;
 }
 
 /**End Banner Area**/
+
+/*Start About Area*/
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-image {
+  padding: 2rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px var(--montserrat);
+  letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 4rem 0;
+}
+/*End About Area*/

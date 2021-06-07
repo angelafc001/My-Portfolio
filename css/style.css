@@ -85,4 +85,124 @@
 .site-main .about-area .about-title .paragraph > p {
   padding: 4rem 0;
 }
+
 /*End About Area*/
+
+/*Start Brand Area*/
+.site-main .brand-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  width: 90%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img {
+  filter: brightness(0.15);
+}
+
+.site-main .brand-area .experience-area {
+  padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span {
+  display: block;
+}
+
+.site-main .brand-area .experience-area .years-area {
+  background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel {
+  position: absolute;
+  left: -190px;
+  top: 0;
+  background: #e029290a;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years {
+  font: normal bold 84px/40px var(--montserrat);
+  color: var(--primary-color2);
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span {
+  font: normal 600 22px/30px var(--montserrat);
+}
+
+.site-main .brand-area .experience-area .call-area {
+  padding-left: 7rem;
+}
+/*End Brand Area*/
+
+/*Education Area Start*/
+
+.site-main .education-area {
+  padding: 7rem 2rem;
+}
+
+.site-main > .education-area .colleges {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5 rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.site-main > .education-area .colleges > .ec-image > .col-img {
+  width: 70%;
+}
+
+.site-main > .education-area .colleges > .uwb-image > .col-img {
+  width: 65%;
+}
+.site-main > .education-area .colleges:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.site-main .education-area > .education-list > .ed-row > .col-col {
+  padding: 0 0 0 3rem;
+}
+/*Education Area Ends*/
+
+/*Experience area starts*/
+.site-main .experience-area {
+  padding: 4rem 0;
+}
+
+.site-main .experience-area .grid .our-project > .title h4 {
+  font: normal 700 25px/25px var(--montserrat);
+}
+
+.site-main .experience-area .grid .our-project > .exp-img:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/*Experience area ends*/

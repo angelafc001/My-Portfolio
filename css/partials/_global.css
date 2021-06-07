@@ -44,3 +44,11 @@ p.para {
   color: var(--text-color);
   font: normal 500 15px/25px var(--montserrat);
 }
+
+.font-montserrat {
+  font-family: var(--montserrat);
+}
+
+.title-h1 {
+  font: normal bold 39px/40px var(--montserrat);
+}

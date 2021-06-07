@@ -2,11 +2,10 @@
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
-
-/*start navigation*/
-.header-area .main-menu .navbar .navbar-brand {
-  padding: 0 2rem 0 2rem;
+html {
+  scroll-behavior: smooth;
 }
+/*start navigation*/
 
 .header-area .main-menu .navbar {
   padding: 2rem 5rem;
@@ -15,7 +14,7 @@
 .header-area .main-menu .nav-item .nav-link {
   font: normal 600 15px/2px var(--montserrat);
   text-transform: uppercase;
-  padding: 0.6rem;
+  padding: 1.2rem;
   color: var(--title-color);
 }
 
@@ -52,15 +51,19 @@
 }
 
 .site-main .site-banner .site-title h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .site-main .site-banner .site-title h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+.site-main .site-banner p {
+  font-size: 1rem;
+  line-height: 5px;
 }
 
 .site-main .site-banner .img-thumbnail {
-  padding: 7rem;
+  padding: 3rem;
   width: 90rem;
   border: none;
 }
@@ -82,8 +85,8 @@
   letter-spacing: 21px;
 }
 
-.site-main .about-area .about-title .paragraph > p {
-  padding: 4rem 0;
+.site-main .about-area .first-col .btn-cv {
+  margin-top: 10px;
 }
 
 /*End About Area*/
@@ -101,15 +104,13 @@
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand {
   text-align: center;
-  padding: 1.8rem 0rem;
+  padding: 0.5rem 0.5rem;
   margin: 0.9rem 0;
-  width: 180px;
-  height: 100px;
   cursor: pointer;
   transition: transform 0.4s ease;
 }
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
-  width: 90%;
+  width: 100%;
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
@@ -189,9 +190,13 @@
   box-shadow: var(--box-shadow);
 }
 
-.site-main .education-area > .education-list > .ed-row > .col-col {
-  padding: 0 0 0 3rem;
+.site-main .education-area .education-list .ed-row .col-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
+
 /*Education Area Ends*/
 
 /*Experience area starts*/
@@ -201,6 +206,15 @@
 
 .site-main .experience-area .grid .our-project > .title h4 {
   font: normal 700 25px/25px var(--montserrat);
+}
+
+.site-main .experience-area .grid .internship,
+.acm,
+.cwk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .site-main .experience-area .grid .our-project > .exp-img:hover img {
@@ -221,6 +235,7 @@
 
 .site-main .projects-area .project .project-img {
   padding: 2rem;
+  cursor: pointer;
 }
 
 .site-main .projects-area .project .about-project {
@@ -289,7 +304,6 @@
 
 /*Footer Area Starts*/
 footer.footer-area {
-  padding: 5rem 0;
   background: url(../img/footer-bg.png) no-repeat;
 }
 footer.footer-area .social h5 {

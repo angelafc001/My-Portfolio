@@ -178,11 +178,12 @@
 }
 
 .site-main > .education-area .colleges > .ec-image > .col-img {
-  width: 70%;
+  width: 65%;
 }
 
 .site-main > .education-area .colleges > .uwb-image > .col-img {
-  width: 65%;
+  width: 70%;
+  padding-top: 2.5rem;
 }
 .site-main > .education-area .colleges:hover {
   box-shadow: var(--box-shadow);
@@ -206,3 +207,101 @@
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 /*Experience area ends*/
+
+/*Projects Area start*/
+.site-main .projects-area .projects-title p {
+  padding: 1rem 7rem;
+}
+
+.site-main .projects-area .project {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+
+.site-main .projects-area .project .project-img {
+  padding: 2rem;
+}
+
+.site-main .projects-area .project .about-project {
+  padding-top: 2rem;
+}
+.site-main .projects-area .project .about-project h4 {
+  font: normal 500 21px/20px var(--montserrat);
+}
+
+.site-main .projects-area .project .about-project p {
+  font-size: 14px;
+}
+
+.site-main .projects-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .projects-area .owl-carousel .owl-dots .owl-dots.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+/*Projects Area ends*/
+
+/*Contact Area Start*/
+.site-main .contact-me-area .contact-me {
+  background: url(../img/subscribe-bg.png) no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+
+.site-main .contact-me-area .contact-me .contact-me-title h4 {
+  font: normal 700 30px/30px var(--montserrat);
+  color: whitesmoke;
+}
+
+.site-main .contact-me-area .contact-me .contact-me-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+.site-main .contact-me-area .contact-me form .input-textbox {
+  padding-bottom: 1rem;
+}
+
+.site-main .contact-me-area .contact-me form .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font: normal 700 17px/20px var(--montserrat);
+}
+
+.site-main .contact-me-area .contact-me form .input-textbox input::placeholder {
+  color: whitesmoke;
+}
+
+.site-main .contact-me-area .contact-me form .btn-submit button {
+  background: whitesmoke;
+  color: black;
+  padding: 0.7rem 2rem;
+}
+/*Contact Area Ends*/
+
+/*Footer Area Starts*/
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+footer.footer-area .social h5 {
+  font: normal bold 500 20px/30px var(--montserrat);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+/*Footer Area Ends*/
